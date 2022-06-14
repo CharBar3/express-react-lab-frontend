@@ -5,8 +5,6 @@ function Projects(props) {
   // create state to hold projects
   const [projects, setProjects] = useState(null);
 
-  console.log(props)
-
   //create function to make api call
   const getProjectsData = async () => {
     //make api call and get response
